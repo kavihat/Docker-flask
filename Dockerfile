@@ -12,4 +12,4 @@ RUN apt-get update &&\
     adduser myuser
 WORKDIR /home/myuser
 COPY --chown=myuser:myuser . .
-CMD gunicorn -w 4 --bind 0.0.0.0:$PORT "app:api"
+CMD gunicorn -w 4 --bind 0.0.0.0:$PORT "app.app:api"
