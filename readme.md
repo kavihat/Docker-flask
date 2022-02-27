@@ -1,7 +1,6 @@
 # Project Setup
 
-[![Run Tests, Build Dockerfile, Run on Heroku](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml)
-
+[![Website-Heroku-Deployment](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml/badge.svg "Website-heroku-deployment")](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml)
 ## Setting up CI/CD
 
 1. Clone this repo to your local (DO NOT FORK THIS REPO, IF YOU DO YOU HAVE TO ENABLE ACTIONS BEFORE ANYTHING RUNS)
