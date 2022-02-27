@@ -1,6 +1,11 @@
 # Project Setup
 
-[![Website-Heroku-Deployment](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml/badge.svg "Website-heroku-deployment")](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml)
+[![Website-Heroku-Deployment](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml/badge.svg "Run Tests, Build Dockerfile, Run on Heroku")](https://github.com/kavihat/Docker-flask/actions/workflows/test-build-deploy.yml)
+
+### Heroku Application Link
+
+
+[My website](https://docker-flk-kk46.herokuapp.com/)
 ## Setting up CI/CD
 
 1. Clone this repo to your local (DO NOT FORK THIS REPO, IF YOU DO YOU HAVE TO ENABLE ACTIONS BEFORE ANYTHING RUNS)
@@ -37,5 +42,5 @@
 
 .pylintrc is the config for pylint .coveragerc is the config for coverage setup.py is a config file for pytest
 
-[My App](https://docker-flk-kk46.herokuapp.com/)
+
 
