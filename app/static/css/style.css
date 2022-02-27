@@ -1,3 +1,28 @@
 body {
-font-size: 200%;
+    font-family: Helvetica, "Helvetica Neue", sans-serif;
 }
+
+.blue{
+    color:darkblue;
+}
+.maroon{
+    color: maroon;
+}
+.purple{
+    color: rebeccapurple;
+}
+.quintessential{
+    font-family: 'Quintessential', cursive;
+}
+.titleFont{
+    font-family: 'Abril Fatface', cursive;
+}
+.makeBigger {
+    font-size: 150%;
+}
+.makeLetterBigger {
+    font-size: 250%;
+}
+
+.carousel { width:500px; height:300px; display: block; margin: auto;}
+.carousel-inner > .carousel-item > img { width:500px; height:300px; }

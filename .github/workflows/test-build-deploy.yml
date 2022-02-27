@@ -42,7 +42,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: kavithak46/dockerflask
+          images: kavithak46/heroku-website
 
       - name: Build and push
         uses: docker/build-push-action@v2
