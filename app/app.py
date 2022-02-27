@@ -1,8 +1,8 @@
 """A simple flask web app"""
 from flask import Flask, render_template
 
-from controllers.about_controller import AboutController
-from controllers.index_controller import IndexController
+from .controllers.about_controller import AboutController
+from .controllers.index_controller import IndexController
 from werkzeug.debug import DebuggedApplication
 
 
@@ -12,13 +12,13 @@ def create_app():
     app.wsgi_app = DebuggedApplication(app.wsgi_app, True)
     return app
 
-app = create_app()
+api = create_app()
 
-@app.route("/", methods=['GET'])
+@api.route("/", methods=['GET'])
 def index_get():
     return IndexController.get()
 
 
-@app.route("/about", methods=['GET'])
+@api.route("/about", methods=['GET'])
 def about_get():
     return AboutController.get()
